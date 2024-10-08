@@ -14,9 +14,9 @@ function createComingSoonAlert(){
   comingSoonAlert.style.backgroundColor = "#ffc107";
   comingSoonAlert.style.padding = "10px 10px 10px 10px";
   comingSoonAlert.style.borderRadius = "10px";
-  comingSoonAlert.style.left = "10%";
+  comingSoonAlert.style.left = "5%";
   comingSoonAlert.style.zIndex = "100000";
-  comingSoonAlert.innerHTML = "Appointment Available in 2 weeks";
+  comingSoonAlert.innerHTML = "Walk-ins only (bookings to go live soon)";
   setTimeout(removeAlert,4000);
 }
 appointmentButton.addEventListener('click',createComingSoonAlert);
